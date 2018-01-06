@@ -150,7 +150,7 @@ Installation
 ------------
 Notes by K:
 
-1. The website to download ROUGE from (http://www.berouge.com/Pages/default.aspx) is down as of 1.5.2017. No issue though as all the tests pass by using the scripts in the folder ROUGE-RELEASE-1.5.5 included in this repo. 
+1. The website to download ROUGE from (http://www.berouge.com/Pages/default.aspx) is down as of 1.5.2018. No issue though as all the tests pass by using the scripts in the folder ROUGE-RELEASE-1.5.5 included in this repo. 
 
 2. Make sure that you install XML::DOM with the version of perl you want to use. Specify the version of perl you want to use with as the header (first line) of the file ROUGE-RELEASE-1.5.5/ROUGE-1.5.5.pl.
 
