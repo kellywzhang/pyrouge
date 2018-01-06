@@ -148,6 +148,12 @@ explaining the various command line options.
 
 Installation
 ------------
+Notes by K:
+1. The website to download ROUGE from (http://www.berouge.com/Pages/default.aspx) is down as of 1.5.2017. No issue though as all the tests pass by using the scripts in the folder ROUGE-RELEASE-1.5.5 included in this repo. 
+2. Make sure that you install XML::DOM with the version of perl you want to use. Specify the version of perl you want to use with as the header (first line) of the file ROUGE-RELEASE-1.5.5/ROUGE-1.5.5.pl.
+3. For all other issues look at: http://kavita-ganesan.com/rouge-howto/; http://www.summarizerman.com/post/42675198985/figuring-out-rouge.
+End of K notes.
+
 
 Instruction on installing ROUGE can be found
 `here <http://jpbalb.in/post/42675198985/figuring-out-rouge>`__.
@@ -164,7 +170,7 @@ To install pyrouge, run:
 If you have trouble installing pyrouge on Windows, please check `this guide by Franck Dernoncourt <https://stackoverflow.com/questions/47045436/how-to-install-the-python-package-pyrouge-on-microsoft-windows/47045437#47045437>`_.
 
 Assuming a working ROUGE-1.5.5. installation, tell pyrouge the ROUGE
-path with this command:
+path with this command (make sure your environment has pyrouge installed before running this command):
 
 ::
 
